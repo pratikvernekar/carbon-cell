@@ -115,6 +115,6 @@
 
 @media screen and (max-width: 800px) {
     .homeContainer {
-        height: auto;
+        height: 100vh;
     }
 }
