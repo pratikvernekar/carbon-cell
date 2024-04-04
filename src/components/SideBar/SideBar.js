@@ -28,9 +28,9 @@ const Sidebar = () => {
           </NavLink>
         </div>
         <div className='iconNavLinkContainer'>
-          <NavLink onClick={toggleSidebar} to="/organisation" className="nav-link" activeClassName="active">
-            <FaRegBuilding className={`homeIcon ${location.pathname === '/about' ? 'active' : ''}`} />
-            Organisation
+          <NavLink onClick={toggleSidebar} to="/organization" className="nav-link" activeClassName="active">
+            <FaRegBuilding className={`homeIcon ${location.pathname === '/organization' ? 'active' : ''}`} />
+            Organization
           </NavLink>
         </div>
         <div className='iconNavLinkContainer'>

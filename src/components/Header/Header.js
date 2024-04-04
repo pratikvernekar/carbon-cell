@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css';
-import {  NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 function Header() {
@@ -8,7 +8,7 @@ function Header() {
         <div className='headerContainer'>
             <NavLink to="/" className="nav-link" activeClassName="active">Home
             </NavLink>
-            <NavLink to="/organisation" className="nav-link" activeClassName="active">Organisation
+            <NavLink to="/organization" className="nav-link" activeClassName="active">Organization
             </NavLink>
             <NavLink to="/history" className="nav-link" activeClassName="active">History
             </NavLink>
