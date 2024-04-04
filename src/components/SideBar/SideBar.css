@@ -1,0 +1,79 @@
+.sidebar {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  background-color: #1A1E1C;
+  transition: left 0.3s ease;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.carbonCellText {
+  margin-top: 5px;
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(to bottom, yellow 50%, green);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  padding-left: 5px;
+}
+
+.open {
+  left: 0px;
+}
+
+.close {
+  left: -13rem;
+  background-color: transparent;
+
+}
+
+.navLinksContainer {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  margin-top: 40px;
+  align-items: center;
+  gap: 20px;
+  font-size: large;
+  padding-right: 50px;
+}
+
+.iconNavLinkContainer {
+  /* border: 1px solid red; */
+  display: flex;
+  width: 150px;
+
+}
+
+.hamburger {
+  cursor: pointer;
+  height: 20px;
+  width: 40px;
+  position: absolute;
+  right: 0px;
+  top: 20px;
+  color: white;
+}
+
+.homeIcon {
+  color: white;
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.active {
+  color: #289C28;
+}
+
+@media screen and (min-width: 800px) {
+  .sidebar {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+
+.active {
+    color: #289C28;
+
+}
+
+.headerContainer {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 30px;
+    font-size: x-large; 
+}
+
+@media screen and (max-width: 800px) {
+    .headerContainer {
+        display: none;
+    }
+}
